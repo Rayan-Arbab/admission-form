@@ -1,0 +1,200 @@
+body{
+            background: linear-gradient(135deg,rgb(253, 210, 218), white, rgb(253, 206, 214));
+        }
+.text{
+     text-align: center;
+}
+h1{
+    color: #946ed9;
+    font-size: 35px;
+    font-family: serif;
+}
+h1 i{
+    color: #cdefd6;
+}
+h2{
+    font-family: cursive;
+    font-size: 30px;
+    color:  #f48fb1;
+}
+span{
+    color: #7e5d46;
+}
+p{
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(176, 21, 176);
+}
+.container{
+    width: 750px;
+    height: 1050px;
+    border: 3px solid beige;
+    border-radius: 30px;
+    box-shadow: 0 8px 25px rgb(47, 46, 46);
+    padding: 40px ;
+    margin: 50px auto;
+    background:linear-gradient(135deg,white,rgb(251, 222, 227),white);
+}
+.mini-cont i{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ffb6c1;
+    background-color:#f8d5da ;
+    border-radius: 50%;
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    justify-content: center;
+    gap: 30%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.card label{
+    margin-top: 15px;
+}
+.card input{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(249, 211, 217);
+}
+.card select{
+    width: 270px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(249, 211, 217);
+}
+label{
+    color: rgb(187, 83, 117);
+    font-family: cursive;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    transition: 0.4s;
+}
+.name input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(249, 211, 217);
+    padding: 5px;
+    margin-top: 0%;
+}
+.program{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.program span{
+    padding: 12px 37px;
+    border: 1px solid palevioletred;
+    background-color: rgb(239, 206, 212);
+    border-radius: 25px;
+    color: rgb(168, 39, 82);
+    margin-bottom: 25px;
+    margin-left: 0;
+    transition: 0.4s;
+}
+.program input[type="radio"]{
+    margin-right: 0;
+}
+.program span:hover{
+     transform: translateX(-10px);
+    transition: 0.4s;
+}
+.address input,.contact input,.email input,.allergies input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(249, 211, 217);
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.card-one{
+    justify-content: center;
+    gap: 30%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.card-one label{
+    margin-top: 15px;
+}
+.card-one textarea{
+    padding: 5px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid rgb(246, 106, 127);
+}
+.card-one select{
+    width: 270px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(249, 211, 217);
+}
+.terms{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.terms span{
+    font-family: cursive;
+    color: #222222;
+    font-size: 16px;
+}
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgb(217, 58, 85);
+}
+footer{
+    background-color: #e8c4cf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 18px gray;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 55px;
+    transition: 0.4s;
+}
+footer p{
+    color: #e43866;
+    font-size: 14px;
+}
+.icon i{
+    color: #eb4773;
+    cursor: pointer;
+}
+input:active, textarea:active{
+        background-color: rgb(237, 221, 237);
+        border: 3px solid purple;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 35px;
+}
+.but button{
+    background-color: #fce9eb;
+    color: #4f0c1e;
+    padding: 15px;
+    font-size: 12px;
+    align-items: center;
+    border: 2px solid palevioletred;
+    box-shadow: 0 8px 8px gray;
+    border-radius: 25px;
+    font-family: cursive;
+}
+button:active{ 
+   background-color: rgb(243, 243, 230);
+    color: #000000;
+}
